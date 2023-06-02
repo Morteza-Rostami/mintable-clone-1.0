@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +15,36 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+:root {
+
+  /* fonts */
+
+  /* colors */
+  --c-blue-1: #5168e1; /* indigo-500 */
+  --c-blue-2: #1f1860; /* violet-950 */
+  -c-purple-1: #d38bff;
+  -c-purple-2: #9258f0;
+  -c-bg-1: #eaeaff; /* violet-100 */
+  -c-bg-2: #c9c9ff; /* indigo-200 */
+
+  /* gap */
+
+}
+
+:root, html {
+  font-family: 'Lato', sans-serif;;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
